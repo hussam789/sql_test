@@ -18,3 +18,11 @@ CREATE TABLE Companies (
   email varchar(50),
   phone varchar(10)
 );
+
+CREATE TABLE Students(
+  id int,
+  name varchar(50),
+  address text,
+  grades  varchar(50),
+  phone varchar(10)
+);

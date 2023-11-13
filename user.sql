@@ -26,3 +26,6 @@ CREATE TABLE Students(
   grades  varchar(50),
   phone varchar(10)
 );
+
+ALTER TABLE Students
+ADD Email varchar(255);
